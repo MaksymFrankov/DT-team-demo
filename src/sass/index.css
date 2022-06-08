@@ -1,0 +1,56 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+:root {
+  --main-text-color: #FFFFFF;
+  --secondary-text-color__purple: #D41443;
+  --secondary-text-color__lightpurple: #FFA5BA;
+  --secondary-text-color__black: #000000;
+  --secondary-text-color__greypurpule: #907E82;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Titan One", cursive;
+  color: var(--main-text-color);
+  letter-spacing: 0.04em;
+}
+
+.example {
+  font-family: "DM Sans", sans-serif, "Titan One", cursive;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #2f2f37;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff6b0a;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=index.css.map */
