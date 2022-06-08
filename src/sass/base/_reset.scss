@@ -1,0 +1,30 @@
+:root {
+    --main-text-color: #FFFFFF;
+    --secondary-text-color__purple: #D41443;
+    --secondary-text-color__lightpurple: #FFA5BA;
+    --secondary-text-color__black: #000000;
+    --secondary-text-color__greypurpule: #907E82;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Titan One', cursive;
+    color: var(--main-text-color);
+    letter-spacing: 0.04em;
+}
